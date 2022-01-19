@@ -20,7 +20,7 @@ const Form = () =>{
         dispatch(createPost(postData))
     }
     const clear = () =>{
-
+       
     }
 
 
