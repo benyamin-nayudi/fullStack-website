@@ -22,7 +22,7 @@ function App() {
         
         dispatch(getPosts())
 
-    } ,[dispatch])
+    } ,[currentId ,dispatch])
 
     return (
         <Container maxwidth = 'lg' >
